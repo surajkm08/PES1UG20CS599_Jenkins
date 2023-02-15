@@ -12,9 +12,9 @@ pipeline{
       }
     }
   }
-  stage('Test'){
+  stage('Deploy'){
     steps{
-      echo 'Test Stage Successful'
+      echo 'Deploy Stage Successful'
     }
    }
   }
