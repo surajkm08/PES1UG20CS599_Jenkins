@@ -11,12 +11,11 @@ pipeline{
         echo 'Test Stage Successful'
       }
     }
-  }
-  stage('Deploy'){
-    steps{
-      echo 'Deploy Stage Successful'
+    stage('Deploy'){
+      steps{
+        echo 'Deploy Stage Successful'
+      }
     }
-   }
   }
   post{
     failure{
