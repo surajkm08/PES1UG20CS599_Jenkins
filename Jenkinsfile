@@ -12,6 +12,12 @@ pipeline{
       }
     }
   }
+  stage('Test'){
+    steps{
+      echo 'Test Stage Successful'
+    }
+   }
+  }
   post{
     failure{
       echo 'Pipeline failed'
